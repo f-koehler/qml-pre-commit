@@ -1,0 +1,6 @@
+- id: qmlformat
+  name: qmlformat
+  description: Format QML files
+  entry: qmlformat -i
+  types: [qml]
+  language: system
