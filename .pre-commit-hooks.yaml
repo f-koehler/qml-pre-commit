@@ -4,3 +4,10 @@
   entry: qmlformat -i
   types: [qml]
   language: system
+
+- id: qmllint
+  name: qmllint
+  description: Lint QML files
+  entry: qmllint
+  types: [qml]
+  language: system
