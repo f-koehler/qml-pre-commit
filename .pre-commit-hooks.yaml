@@ -1,13 +1,13 @@
 - id: qmlformat
   name: qmlformat
   description: Format QML files
-  entry: qmlformat -i
+  entry: qmlformat-qt6 -i
   types: [qml]
   language: system
 
 - id: qmllint
   name: qmllint
   description: Lint QML files
-  entry: qmllint
+  entry: qmllint-qt6
   types: [qml]
   language: system
